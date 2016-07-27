@@ -1,0 +1,47 @@
+body{
+	width: 1320px;
+	height: auto;
+}
+
+.wrapper{
+	width: 1320px;
+	height: auto;
+}
+
+header{
+	display: block;
+	max-width: 100%;
+	height: content;
+	background: url(../img/header_bg.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.container{
+	display: block;
+	max-width: 960px auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	font-family: LeagueGothicRegular;
+	font-size: 10ex;
+	text-transform: uppercase;
+	color: #000;
+
+}
+.navi{
+	float: right;
+}
+
+.navi li{
+	display: inline-block;
+}
+
+.navi li a{
+	font-family: LeagueGothicRegular;
+	font-size: 20px;
+
+}
