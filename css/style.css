@@ -3,7 +3,7 @@ header{
 	max-width: 100%;
 	min-width: 320px;
 	background-repeat: no-repeat;
-	height: 890px;
+	height: 880px;
 	background-color: #978b9f;
 	background-size: cover;
 }
@@ -23,19 +23,22 @@ header{
 	text-shadow: -1px 1px 1px #9c9193;
 	display: block;
 	float: left;
-	margin-top: 1.15em;
+	margin-top: 2em;
 	letter-spacing: -0.04ex;
 }
 
 .logo span{
-    background: linear-gradient(0deg, #33263a 0%, #745083 100%);  
+    background: -webkit-linear-gradient(0deg, #33263a 0%, #745083 100%);
+	background: -moz-linear-gradient(0deg, #33263a 0%, #745083 100%);
+	background: -ms-linear-gradient(0deg, #33263a 0%, #745083 100%);
+	background: linear-gradient(0deg, #33263a 0%, #745083 100%);
   	-webkit-background-clip: text; 
   	color: transparent;
   	text-shadow: none;
 }
 .navi{
 		float: right;
-	margin-top: 9.3ex;
+	margin-top: 15ex;
 }
 
 .navi li{
@@ -60,8 +63,8 @@ header{
 }
 
 .navi li a{
-	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 3.4ex;
+		font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+		font-size: 3.4ex;
 	text-decoration: none;
 	color: #fff;
 	text-shadow: 1px 1px 1px #9c9193;
@@ -90,7 +93,7 @@ header{
 	max-width: 960px;
 	margin: 0 auto;
 	height: auto;
-
+	overflow: visible;
 }
 
 .middle_block{
@@ -102,7 +105,7 @@ header{
 
 }
 
-.middle_wrapper section{
+.middle_wrapper .mіddle__block__text{
 	display: block;
 	float: left;
 	width: 52%;
@@ -177,12 +180,15 @@ header{
 	border-radius: 100%;
 	background-color: #fff;
 	cursor: pointer;
-	border: none;
+	outline: none;
 	border: 2px solid #3b3942;
 }
 
 .purple{
-	background-color: #322539;
+	background: -webkit-linear-gradient(0deg, #322539 0%, #745083 100%);
+	background: -moz-linear-gradient(0deg, #322539 0%, #745083 100%);
+	background: -ms-linear-gradient(0deg, #322539 0%, #745083 100%);
+	background: linear-gradient(0deg, #322539 0%, #745083 100%);
 	max-width: 100%;
 	min-width: 320px;
 	background-size: 100%;
@@ -192,11 +198,9 @@ header{
 	border-top: 1px solid #33253a;
 	border-bottom: 1px solid #1d2f37;
 	box-sizing: content-box;
+	padding: 0;
 }
 
-.articles{
-	padding-left: 10px;
-}
 .first{
 	float: left;
 	width: 33%
@@ -204,13 +208,13 @@ header{
 
 .second{
 	float: left;
-	width: 33%
+	width: 32%
 
 }
 
 .third{
 	float: left;
-	width: 33%
+	width: 32%
 }
 .first .icon{
 	width: 33px;
@@ -225,7 +229,6 @@ header{
 	height: 32px;
 	background: url('../img/sprite_1.png');
 	background-position: -33px 0;
-
 }
 
 .third .icon{
@@ -234,20 +237,43 @@ header{
 	background: url('../img/sprite_1.png');
 	background-position: -65px 0;
 
+
 }
 article{
-	margin-top: 50px;
-
+	margin-top: 12ex;
 
 }
 
+.article.first{
+	position: relative;
+	left: 1ex;
+	top: -1ex;
+	margin-right: 10px;
+}
+
+.article.second{
+	padding-left: 2ex;
+	position: relative;
+	left: 1ex;
+	top: -1ex;
+}
+
+.article.third{
+	position: relative;
+	left: 1ex;
+	top: -1ex;
+}
 .article .text{
 	position: relative;
-	top: -50px;
-	left: 40px;
-	padding-right: 70px;
+	top: -5ex;
+	left: 5ex;
+	padding-right: 60px;
+	margin-left: 3ex;
+}
 
-
+.third.text{
+	margin-left: 20px;
+	padding-right: 0;
 }
 
 .article h3{
@@ -256,13 +282,355 @@ article{
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px #000;
+
 }
 
 .article span{
 	font-family:"OpenSansLight";
-	font-size: 2ex;
+	font-size: 2.2ex;
 	color: #eaeaec;
 	text-shadow: 0 1px 1px #3d303c;
-	line-height: 1.3em;
+	line-height: 1.7em;
 	letter-spacing: -0.03ex;
+	position: relative;
+
+}
+
+.article a{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 2.5ex;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 68%;
+	text-transform: uppercase;
+	position: relative;
+	top: -1.7ex;
+}
+
+.article a:hover{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 2.5ex;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 68%;;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 8px #fff;
+}
+
+.news{
+	max-width: 100%;
+	min-width: 320px;
+	background-size: 100%;
+	background-color: #f9f9f9;
+	padding-bottom: 70px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.bubble{
+	float: left;
+	width: 50%;
+}
+
+.bubble img{
+	position: relative;
+	z-index: 2;
+	top: 116px;
+}
+
+.bubble_text{
+	position: relative;
+	top: 40px;
+	left: 25px;
+	z-index: 1;
+	width: 70%;
+	border: 1px solid #f6f6f6;
+	padding: 32px 43px 38px 39px;
+	background-color: #fff;
+}
+
+
+.bubble_text h4{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 4ex;
+	text-decoration: none;
+	color: #454545;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #cdcdcd;
+}
+
+.bubble_text span{
+	color: #edbfff;
+	
+}
+/*
+.bubble_text:before{
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 370px; 
+	top: 300px; 
+	border: 13px solid; 
+	border-color: #666 #666 transparent transparent; 
+}
+
+
+.bubble_text:after{ 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 369px; 
+	top: 299px; 
+	border: 13px solid; 
+	border-color: #fff  #fff transparent transparent; 
+}
+*/
+.bubble_text p{
+	font-family:"OpenSansLight";
+	font-size: 2.1ex;
+	color: #6a6a6a;
+	line-height: 3.1ex;
+	padding-top: 10px;
+}
+
+.bubble_buttons ul{
+	margin-left: 40%;
+	margin-top: 9ex;
+}
+
+.bubble_buttons ul li{
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 1px;
+
+}
+
+.bubble_buttons button{
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	background-color: #fff;
+	cursor: pointer;
+	border: none;
+	border: 1px solid #f0f0f0;
+}
+
+.bubble_buttons button:active,
+.bubble_buttons button:focus{
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	background: -webkit-radial-gradient(circle at 50% 50%, #464646 0%, #464646 50%, #fcfcfc 51%, #fff 100%);
+	background: -moz-radial-gradient(circle at 50% 50%, #464646 0%, #464646 50%, #fcfcfc 51%, #fff 100%);
+	background: -ms-radial-gradient(circle at 50% 50%, #464646 0%, #464646 50%, #fcfcfc 51%, #fff 100%);
+	background: radial-gradient(circle at 50% 50%, #464646 0%, #464646 50%, #fcfcfc 51%, #fff 100%);
+	cursor: pointer;
+	outline: none;
+	border: 1px solid #b9b9b9;
+
+}
+
+.updates{
+	float: right;
+	width: 50%;
+}
+
+.updates_data{
+	margin-top: 18ex;
+	margin-left: 4ex;
+}
+.updates h4{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 4ex;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #454545;
+	text-shadow: -1px 0 1px #c9c9c9;
+	padding-bottom: 1.3ex;
+}
+
+.updates_item h5{
+	font-family: "OpenSansExtraBold";
+	font-size: 2.1ex;
+	text-decoration: none;
+	color: #454545;
+	line-height: 3ex;
+	padding-left: 1ex;
+
+}
+
+.updates_item p{
+	font-family:"OpenSansLight";
+	font-size: 2.1ex;
+	padding-left: 1ex;
+}
+
+.updates_item{
+	position: relative;
+	padding-left: 60px;
+	top: -50px;
+	margin-bottom: -3ex;
+}
+
+.icon.one{
+	height: 49px;
+	width: 49px;
+	background: url('../img/fractal.png');
+}
+
+.icon.two{
+	height: 49px;
+	width: 49px;
+	background: url('../img/fractal.png');
+}
+
+.icon.three{
+	height: 49px;
+	width: 49px;
+	background: url('../img/fractal.png');
+}
+
+.updates a{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 2.5ex;
+	text-decoration: none;
+	color: #454545;
+	text-transform: uppercase;
+	float: right;
+	margin-right: 2ex;
+}
+
+.trade_marks{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.trade_icons img{
+	height: 65px;
+	width: 775px;
+	padding-left: 92px;
+	padding-top: 24px;
+	padding-bottom: 27px;
+
+}
+
+.blogs{
+	background-color: #ececec;
+	border-top: 1px solid #d8d8d8;
+}
+
+.blogs__first{
+	float: left;
+	width: 32%;
+	padding-top: 1.2ex;
+	padding-bottom: 13ex;
+}
+
+.blogs__first h2{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 6.3ex;
+	text-transform: uppercase;
+	color: #454545;
+	text-shadow: 0 1px 1px #fff;
+	padding-bottom: 0.5ex;
+}
+
+.blogs__first h2 span{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: inherit;
+	text-transform: uppercase;
+	color: #b9b9b9;
+}
+
+.blogs__first .copyright{
+	font-family: "Georgia";
+  	color: rgb(197, 197, 197);
+  	font-size: 2ex;
+  	font-style: italic;
+  	text-shadow: 1px 1px 1px #fff;
+  	padding-bottom: 1.5ex;
+
+}
+
+.blogs__second h3,
+.blogs__third h3{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 4ex;
+	padding-bottom: 1.2ex;
+	color: #454545;
+	text-transform: uppercase;
+	padding-top: 0.7ex;
+}
+
+.blogs__second{
+	float: left;
+	width: 32%;
+	padding-left: 2ex;
+}
+
+.blogs__third{
+	float: right;
+	width: 33.3%;
+}
+
+.blogs__text{
+	font-family:"OpenSansLight";
+	font-size: 2.2ex;
+	line-height: 3ex;
+	padding-right: 3ex;
+}
+
+footer{
+	background-image: url('../img/footer_bg.png');
+	height: 114px;
+}
+.navi.footer{
+	float: left;
+	margin-top: 7ex;
+}
+
+.navi.footer li{
+	margin-left: 1ex;
+	margin-right: 1.5ex;
+	padding-left: 1ex;
+	padding-right: 1.2ex;
+}
+
+.navi.footer li:first-child{
+	margin-left: 0;
+	padding-left: 0;
+	margin-left: -0.5ex;
+}
+
+.navi.footer li:nth-child(3){
+	padding-left: 1.5ex;
+}
+
+.navi.footer li:nth-child(4){
+	padding-right: 1.6ex;
+}
+
+.navi.footer li:nth-child(5){
+	padding-right: 2ex;
+}
+
+.navi.footer li a{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 2.7ex;
+
+}
+
+.designed{
+	float: right;
+	margin-top: 7.7ex;
+}
+
+.designed p{
+	font-family:"OpenSansLight";
+	font-size: 1.68ex;
+	color: #fff;
+	text-shadow: 0 2px 1px #45444f;
+}
+
+.designed p span{
+	font-family:"OpenSansExtraBold";
 }
