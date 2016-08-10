@@ -444,6 +444,9 @@ article{
 	display: none;
 }
 
+.blogs_articles .for_768px {
+	display: none;
+}
 .updates a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
 	font-size: 18px;
