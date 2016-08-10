@@ -1,11 +1,13 @@
+@media screen and (max-width: 1920px) and (min-width: 769px) {
+
 header{
 	background-image: url('../img/header_bg.png');
 	max-width: 100%;
-	min-width: 320px;
-	background-repeat: no-repeat;
-	height: 880px;
+	height: 878px;
 	background-color: #978b9f;
 	background-size: cover;
+	background-repeat: no-repeat;
+
 }
 
 .wrapper{
@@ -17,14 +19,14 @@ header{
 
 .logo{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 7ex;
+	font-size: 48px;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: -1px 1px 1px #9c9193;
-	display: block;
 	float: left;
-	margin-top: 2em;
-	letter-spacing: -0.04ex;
+	margin-top: 99px;
+	letter-spacing: -1px;
+
 }
 
 .logo span{
@@ -36,52 +38,36 @@ header{
   	color: transparent;
   	text-shadow: none;
 }
-.navi{
-		float: right;
-	margin-top: 15ex;
+
+header nav{
+	margin-top: 107px;
+	float: right;
 }
 
-.navi li{
+
+.navi_top li{
 	display: inline-block;
-	margin-left: 1.6ex;
-	margin-right: 1.6ex;
-	padding-left: 1.3ex;
-	padding-right: 1.3ex;
+	margin-right: 35px;
 	vertical-align: middle;
 
 }
 
-.navi li:last-child{
-	margin-right: 0;
-	padding-right: 0;
-
-
-}
-
-.navi li:nth-child(1){
-	padding-right: 1ex;
-}
-
-.navi li a{
-		font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-		font-size: 3.4ex;
+.navi_top li a{
+	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
+	font-size: 24px;
 	text-decoration: none;
 	color: #fff;
 	text-shadow: 1px 1px 1px #9c9193;
 	text-transform: uppercase;
-	letter-spacing: -0.04ex;
-
 }
 
-.navi li a:hover{
+.navi_top li a:hover{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 3.4ex;
-	text-decoration: none;
+	font-size: 24px;
 	color: #fff;
 	text-shadow: 1px 1px 1px #9c9193;
 	text-transform: uppercase;
 	border-bottom: 2px solid #edbfff;
-
 }
 
 .clearfix{
@@ -97,11 +83,10 @@ header{
 }
 
 .middle_block{
-	margin-top: 10.05em;
+	margin-top: 10.4%;
 	max-width: inherit;
-	min-width: 320px;
-	height: 45.35%;
-	background: rgba(0,0,0,0.2);
+	height: 45.7%;
+	background: rgba(0,0,0,.2);
 
 }
 
@@ -109,58 +94,55 @@ header{
 	display: block;
 	float: left;
 	width: 52%;
+	height: 40%;
+	display: block;
+	overflow: hidden;
 
 }
 
 .middle_wrapper h1{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 8ex;
+	font-size: 57px;
 	color: #fff;
 	text-shadow: -1px 1px 1px #3d303c;
 	text-transform: capitalize;
 	margin-top: 16%;
-
-
 }
 
 .middle_wrapper h2{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 4.5ex;
+	font-size: 31px;
 	color: #edbfff;
 	text-shadow: -1px 1px 1px #3d303c;
 	text-transform: uppercase;
-	letter-spacing: -0.03ex;
-	margin-bottom: 0.4ex;
+	margin-bottom: 8px;
 
 }
 
 .mіddle__block__text p{
 	font-family:"OpenSansLight";
-	font-size: 1.2em;
+	font-size: 18px;
 	color: #eaeaec;
 	text-shadow: 0 1px 1px #3d303c;
-	line-height: 1.3em;
-	letter-spacing: -0.03ex;
+	line-height: 24px;
 }
-
-
 
 .iphone_img{
 	float: right;
-	margin-right: 10ex;
-	margin-top: -17px;
+	margin-right: 71px;
+	margin-top: -19px;
+	max-width: 100%;
+	height: auto;
 }
 
 .buttons ul{
-	margin-left: 74%;
-	margin-top: 10.33ex;
+	margin-left: 73.6%;
+	margin-top: 10%;
 }
 
 .buttons ul li{
 	display: inline-block;
-	margin-left: 2px;
-	margin-right: 1px;
-
+	margin-left: 3px;
 }
 
 .buttons button{
@@ -190,32 +172,30 @@ header{
 	background: -ms-linear-gradient(0deg, #322539 0%, #745083 100%);
 	background: linear-gradient(0deg, #322539 0%, #745083 100%);
 	max-width: 100%;
-	min-width: 320px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 339px;
+	height: 340px;
 	background-size: cover;
 	border-top: 1px solid #33253a;
 	border-bottom: 1px solid #1d2f37;
 	box-sizing: content-box;
-	padding: 0;
 }
 
 .first{
 	float: left;
-	width: 33%
+	width: 33.3%
 }
 
 .second{
 	float: left;
-	width: 32%
-
+	width: 33.3%
 }
 
 .third{
-	float: left;
-	width: 32%
+	float: right;
+	width: 33.3%
 }
+
 .first .icon{
 	width: 33px;
 	height: 32px;
@@ -236,49 +216,42 @@ header{
 	height: 32px;
 	background: url('../img/sprite_1.png');
 	background-position: -65px 0;
+}
 
-
+.article .icon{
+	position: relative;
+	top: -150px;
+	right: -5px;
 }
 article{
-	margin-top: 12ex;
+	margin-top: 77px;
+	height: inherit;
 
 }
 
 .article.first{
-	position: relative;
-	left: 1ex;
-	top: -1ex;
-	margin-right: 10px;
+
 }
 
 .article.second{
-	padding-left: 2ex;
-	position: relative;
-	left: 1ex;
-	top: -1ex;
+
 }
 
 .article.third{
-	position: relative;
-	left: 1ex;
-	top: -1ex;
+
 }
 .article .text{
-	position: relative;
-	top: -5ex;
-	left: 5ex;
-	padding-right: 60px;
-	margin-left: 3ex;
+	padding-right: 20px;
+	padding-left: 60px;
 }
 
 .third.text{
-	margin-left: 20px;
-	padding-right: 0;
+
 }
 
 .article h3{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 4ex;
+	font-size: 30px;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px #000;
@@ -287,29 +260,24 @@ article{
 
 .article span{
 	font-family:"OpenSansLight";
-	font-size: 2.2ex;
+	font-size: 14px;
 	color: #eaeaec;
 	text-shadow: 0 1px 1px #3d303c;
-	line-height: 1.7em;
-	letter-spacing: -0.03ex;
-	position: relative;
-
+	line-height: 25px;
 }
 
 .article a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 2.5ex;
+	font-size: 18px;
 	text-decoration: none;
 	color: #fff;
 	margin-left: 68%;
 	text-transform: uppercase;
-	position: relative;
-	top: -1.7ex;
 }
 
 .article a:hover{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 2.5ex;
+	font-size: 18px;
 	text-decoration: none;
 	color: #fff;
 	margin-left: 68%;;
@@ -319,7 +287,6 @@ article{
 
 .news{
 	max-width: 100%;
-	min-width: 320px;
 	background-size: 100%;
 	background-color: #f9f9f9;
 	padding-bottom: 70px;
@@ -338,19 +305,19 @@ article{
 
 .bubble_text{
 	position: relative;
-	top: 40px;
+	top: 43px;
 	left: 25px;
 	z-index: 1;
 	width: 70%;
 	border: 1px solid #f6f6f6;
-	padding: 32px 43px 38px 39px;
+	padding: 32px 46px 30px 39px;
 	background-color: #fff;
 }
 
 
 .bubble_text h4{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 4ex;
+	font-size: 30px;
 	text-decoration: none;
 	color: #454545;
 	text-transform: uppercase;
@@ -359,50 +326,25 @@ article{
 
 .bubble_text span{
 	color: #edbfff;
-	
-}
-/*
-.bubble_text:before{
-	content: ' '; 
-	position: absolute; 
-	width: 0; 
-	height: 0; 
-	left: 370px; 
-	top: 300px; 
-	border: 13px solid; 
-	border-color: #666 #666 transparent transparent; 
 }
 
-
-.bubble_text:after{ 
-	content: ' '; 
-	position: absolute; 
-	width: 0; 
-	height: 0; 
-	left: 369px; 
-	top: 299px; 
-	border: 13px solid; 
-	border-color: #fff  #fff transparent transparent; 
-}
-*/
 .bubble_text p{
 	font-family:"OpenSansLight";
-	font-size: 2.1ex;
+	font-size: 16px;
 	color: #6a6a6a;
-	line-height: 3.1ex;
+	line-height: 22px;
 	padding-top: 10px;
 }
 
 .bubble_buttons ul{
 	margin-left: 40%;
-	margin-top: 9ex;
+	margin-top: 63px;
+
 }
 
 .bubble_buttons ul li{
 	display: inline-block;
-	margin-left: 2px;
-	margin-right: 1px;
-
+	margin-left: 3px;
 }
 
 .bubble_buttons button{
@@ -427,7 +369,6 @@ article{
 	cursor: pointer;
 	outline: none;
 	border: 1px solid #b9b9b9;
-
 }
 
 .updates{
@@ -436,42 +377,46 @@ article{
 }
 
 .updates_data{
-	margin-top: 18ex;
-	margin-left: 4ex;
+	margin-top: 132px;
+
 }
 .updates h4{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 4ex;
+	font-size: 28px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #454545;
 	text-shadow: -1px 0 1px #c9c9c9;
-	padding-bottom: 1.3ex;
+	padding-bottom: 17px;
+	padding-left: 30px;
 }
 
 .updates_item h5{
 	font-family: "OpenSansExtraBold";
-	font-size: 2.1ex;
+	font-size: 16apx;
 	text-decoration: none;
 	color: #454545;
-	line-height: 3ex;
-	padding-left: 1ex;
-
+	line-height: 20px;
+	padding-bottom: 7px;
 }
 
 .updates_item p{
 	font-family:"OpenSansLight";
-	font-size: 2.1ex;
-	padding-left: 1ex;
+	font-size: 16px;
+
 }
 
 .updates_item{
-	position: relative;
-	padding-left: 60px;
-	top: -50px;
-	margin-bottom: -3ex;
+	padding-left: 95px;
 }
 
+.updates_item:nth-child(3){
+	margin-top: -24px;
+}
+
+.updates_item:nth-child(4){
+		margin-top: -28px;
+}
 .icon.one{
 	height: 49px;
 	width: 49px;
@@ -489,15 +434,25 @@ article{
 	width: 49px;
 	background: url('../img/fractal.png');
 }
+.updates_data .icon{
+	position: relative;
+	left: -65px;
+	top: -45px;
+}
+
+.updates .for_768px {
+	display: none;
+}
 
 .updates a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 2.5ex;
+	font-size: 18px;
 	text-decoration: none;
 	color: #454545;
 	text-transform: uppercase;
 	float: right;
-	margin-right: 2ex;
+	margin-right: 20px;
+	margin-top: -22px;
 }
 
 .trade_marks{
@@ -520,18 +475,19 @@ article{
 
 .blogs__first{
 	float: left;
-	width: 32%;
-	padding-top: 1.2ex;
-	padding-bottom: 13ex;
+	width: 33%;
+	padding-bottom: 117px;
+	padding-top: 18px;
+	margin-right: 25px;
 }
 
 .blogs__first h2{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 6.3ex;
+	font-size: 50px;
 	text-transform: uppercase;
 	color: #454545;
 	text-shadow: 0 1px 1px #fff;
-	padding-bottom: 0.5ex;
+	padding-bottom: 10px;
 }
 
 .blogs__first h2 span{
@@ -544,40 +500,45 @@ article{
 .blogs__first .copyright{
 	font-family: "Georgia";
   	color: rgb(197, 197, 197);
-  	font-size: 2ex;
+  	font-size: 16px;
   	font-style: italic;
   	text-shadow: 1px 1px 1px #fff;
-  	padding-bottom: 1.5ex;
+  	padding-bottom: 10px;
 
 }
 
 .blogs__second h3,
 .blogs__third h3{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 4ex;
+	font-size: 30px;
 	padding-bottom: 1.2ex;
 	color: #454545;
 	text-transform: uppercase;
-	padding-top: 0.7ex;
+
 }
 
 .blogs__second{
 	float: left;
-	width: 32%;
-	padding-left: 2ex;
+	max-width: 30%;
+	padding-top: 18px;
+
+
 }
 
 .blogs__third{
 	float: right;
-	width: 33.3%;
+	width: 33%;
+	padding-top: 18px;
 }
 
 .blogs__text{
 	font-family:"OpenSansLight";
-	font-size: 2.2ex;
-	line-height: 3ex;
-	padding-right: 3ex;
+	font-size: 15px;
+	line-height: 20px;
+
 }
+
+
 
 footer{
 	background-image: url('../img/footer_bg.png');
@@ -585,52 +546,57 @@ footer{
 }
 .navi.footer{
 	float: left;
-	margin-top: 7ex;
+	margin-top: 45px;
 }
 
 .navi.footer li{
-	margin-left: 1ex;
-	margin-right: 1.5ex;
-	padding-left: 1ex;
-	padding-right: 1.2ex;
-}
-
-.navi.footer li:first-child{
 	margin-left: 0;
 	padding-left: 0;
-	margin-left: -0.5ex;
+	margin-right: 25px;
+	display: inline-block;
+}
+
+.navi.footer li:nth-child(2){
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 30px;
 }
 
 .navi.footer li:nth-child(3){
-	padding-left: 1.5ex;
-}
-
-.navi.footer li:nth-child(4){
-	padding-right: 1.6ex;
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 35px;
 }
 
 .navi.footer li:nth-child(5){
-	padding-right: 2ex;
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 35px;
 }
 
 .navi.footer li a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 2.7ex;
-
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 1px #9c9193;
 }
 
 .designed{
 	float: right;
-	margin-top: 7.7ex;
+	margin-top: 52px;
 }
 
 .designed p{
 	font-family:"OpenSansLight";
-	font-size: 1.68ex;
+	font-size: 12px;
 	color: #fff;
 	text-shadow: 0 2px 1px #45444f;
 }
 
 .designed p span{
 	font-family:"OpenSansExtraBold";
+}
+
 }
