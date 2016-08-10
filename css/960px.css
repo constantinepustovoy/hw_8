@@ -544,37 +544,37 @@ footer{
 	background-image: url('../img/footer_bg.png');
 	height: 114px;
 }
-.navi.footer{
+.navi_footer{
 	float: left;
 	margin-top: 45px;
 }
 
-.navi.footer li{
+.navi_footer li{
 	margin-left: 0;
 	padding-left: 0;
 	margin-right: 25px;
 	display: inline-block;
 }
 
-.navi.footer li:nth-child(2){
+.navi_footer li:nth-child(2){
 	margin-left: 0;
 	padding-left: 0;
 	margin-right: 30px;
 }
 
-.navi.footer li:nth-child(3){
+.navi_footer li:nth-child(3){
 	margin-left: 0;
 	padding-left: 0;
 	margin-right: 35px;
 }
 
-.navi.footer li:nth-child(5){
+.navi_footer li:nth-child(5){
 	margin-left: 0;
 	padding-left: 0;
 	margin-right: 35px;
 }
 
-.navi.footer li a{
+.navi_footer li a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
 	font-size: 20px;
 	text-decoration: none;
