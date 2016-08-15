@@ -1,9 +1,10 @@
-@media screen and (max-width: 1920px) and (min-width: 769px) {
+@media screen and (max-width: 480px) and (min-width: 321px) {
 
 header{
 	background-image: url('../img/header_bg.png');
-	max-width: 100%;
-	height: 878px;
+	max-width: 480px;
+	width: 100%;
+	height: 550px;
 	background-color: #978b9f;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -11,7 +12,7 @@ header{
 }
 
 .wrapper{
-	max-width: 960px;
+	max-width: 480px;
 	margin: 0 auto;
 	height: auto;
 	overflow: hidden;
@@ -19,14 +20,13 @@ header{
 
 .logo{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 48px;
+	font-size: 35px;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: -1px 1px 1px #9c9193;
-	float: left;
-	margin-top: 99px;
+	padding-top: 70px;
 	letter-spacing: -1px;
-
+	margin-left: 38%;
 }
 
 .logo span{
@@ -40,34 +40,68 @@ header{
 }
 
 header nav{
-	margin-top: 107px;
-	float: right;
-}
+	margin-top: 25px;
+	width: 246px;
+	margin-left: 26%;
+	z-index: 100;
+	position: absolute;
 
+
+}
 
 .navi_top li{
-	display: inline-block;
-	margin-right: 35px;
 	vertical-align: middle;
-
+	text-align: center;
+	width: 200px;
+	background: rgba(0,0,0,0.2);
+	height: 40px;
+	vertical-align: middle;
+	overflow: hidden;
 }
 
+.navi_top li:nth-child(1){
+	border: 1px solid transparent;
+	border-bottom: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px
+}
+
+.navi_top li:nth-child(6){
+	border: 1px solid transparent;
+	border-bottom: none;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding-bottom: 0;
+}	
+
 .navi_top li a{
+	display: block;
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 24px;
+	font-size: 21px;
 	text-decoration: none;
 	color: #fff;
 	text-shadow: 1px 1px 1px #9c9193;
 	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
 }
 
 .navi_top li a:hover{
+	display: block;
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 24px;
+	font-size: 21px;
+	text-decoration: none;
 	color: #fff;
 	text-shadow: 1px 1px 1px #9c9193;
 	text-transform: uppercase;
 	border-bottom: 2px solid #edbfff;
+	background: rgba(5,5,5,0.3);
+	box-sizing: border-box;
+	overflow: hidden;
+
 }
 
 .clearfix{
@@ -76,16 +110,18 @@ header nav{
 }
 
 .middle_wrapper{
-	max-width: 960px;
+	max-width: 480px;
+	width: 100%;
 	margin: 0 auto;
 	height: auto;
 	overflow: visible;
+	height: 246px;
 }
 
 .middle_block{
-	margin-top: 10.4%;
+	margin-top: 10%;
 	max-width: inherit;
-	height: 45.7%;
+	height: 246px;
 	background: rgba(0,0,0,.2);
 
 }
@@ -93,7 +129,7 @@ header nav{
 .middle_wrapper .mіddle__block__text{
 	display: block;
 	float: left;
-	width: 52%;
+	width: 45%;
 	height: 40%;
 	display: block;
 	overflow: hidden;
@@ -102,16 +138,17 @@ header nav{
 
 .middle_wrapper h1{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 57px;
+	font-size: 27px;
 	color: #fff;
 	text-shadow: -1px 1px 1px #3d303c;
 	text-transform: capitalize;
-	margin-top: 16%;
+	margin-top: 25%;
+	letter-spacing: 2px;
 }
 
 .middle_wrapper h2{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 31px;
+	font-size: 14px;
 	color: #edbfff;
 	text-shadow: -1px 1px 1px #3d303c;
 	text-transform: uppercase;
@@ -121,27 +158,27 @@ header nav{
 
 .mіddle__block__text p{
 	font-family:"OpenSansLight";
-	font-size: 18px;
+	font-size: 15px;
 	color: #eaeaec;
 	text-shadow: 0 1px 1px #3d303c;
 	line-height: 24px;
 }
 
-.iphone_img{
+.iphone_img.for_480px{
 	float: right;
-	margin-right: 71px;
-	margin-top: -19px;
-	max-width: 100%;
+	margin-right: 10px;
+	margin-top: -12px;
+	max-width: 192px;
+	min-width: 100;
 	height: auto;
 }
 
-.for_480px{
+.for_960px_768px{
 	display: none;
 }
 
 .buttons ul{
-	margin-left: 73.6%;
-	margin-top: 8%;
+	margin-left: 38%;
 }
 
 .buttons ul li{
@@ -175,7 +212,8 @@ header nav{
 	background: -moz-linear-gradient(0deg, #322539 0%, #745083 100%);
 	background: -ms-linear-gradient(0deg, #322539 0%, #745083 100%);
 	background: linear-gradient(0deg, #322539 0%, #745083 100%);
-	max-width: 100%;
+	max-width: 768px;
+	width: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 340px;
@@ -183,21 +221,7 @@ header nav{
 	border-top: 1px solid #33253a;
 	border-bottom: 1px solid #1d2f37;
 	box-sizing: content-box;
-}
-
-.first{
-	float: left;
-	width: 33.3%
-}
-
-.second{
-	float: left;
-	width: 33.3%
-}
-
-.third{
-	float: right;
-	width: 33.3%
+	height: 600px;
 }
 
 .first .icon{
@@ -224,38 +248,32 @@ header nav{
 
 .article .icon{
 	position: relative;
-	top: -150px;
+	top: -110px;
 	right: -5px;
 }
+
 article{
-	margin-top: 77px;
-	height: inherit;
+	height: 140px;
+	margin-left: 20px;
 
 }
 
-.article.first{
-
+.purple article:nth-child(1){
+	margin-top: 80px;
 }
 
-.article.second{
-
-}
-
-.article.third{
-
-}
 .article .text{
-	padding-right: 20px;
-	padding-left: 60px;
-}
-
-.third.text{
-
+	margin-right: 10px;
+	display: block;
+	overflow: hidden;
+	height: 100px;
+	padding-left: 50px;
+	width: 390px;
 }
 
 .article h3{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 30px;
+	font-size: 18px;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px #000;
@@ -264,7 +282,7 @@ article{
 
 .article span{
 	font-family:"OpenSansLight";
-	font-size: 14px;
+	font-size: 12px;
 	color: #eaeaec;
 	text-shadow: 0 1px 1px #3d303c;
 	line-height: 25px;
@@ -272,33 +290,35 @@ article{
 
 .article a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 18px;
+	font-size: 14px;
 	text-decoration: none;
 	color: #fff;
-	margin-left: 68%;
+	margin-left: 85%;
 	text-transform: uppercase;
+	margin-top: 10px;
 }
 
 .article a:hover{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 18px;
+	font-size: 14px;
 	text-decoration: none;
 	color: #fff;
-	margin-left: 68%;;
+	margin-left: 85%;;
 	text-transform: uppercase;
 	text-shadow: 0px 0px 8px #fff;
 }
 
 .news{
-	max-width: 100%;
+	max-width: 480px;
+	width: 100%;
 	background-size: 100%;
-	background-color: #f9f9f9;
+	background-color: #f3f3f3;
 	padding-bottom: 70px;
 	border-bottom: 1px solid #e6e6e6;
 }
 .bubble{
-	float: left;
-	width: 50%;
+	max-width: 90%;
+	margin-left: 20px;
 }
 
 .bubble img{
@@ -334,10 +354,12 @@ article{
 
 .bubble_text p{
 	font-family:"OpenSansLight";
-	font-size: 16px;
+	font-size: 12px;
 	color: #6a6a6a;
 	line-height: 22px;
 	padding-top: 10px;
+	height: 110px;
+	overflow: hidden;
 }
 
 .bubble_buttons ul{
@@ -376,17 +398,17 @@ article{
 }
 
 .updates{
-	float: right;
-	width: 50%;
+	max-width: 90%;
+	margin-left: 15%;
 }
 
 .updates_data{
-	margin-top: 132px;
+	margin-top: 50px;
 
 }
 .updates h4{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 28px;
+	font-size: 22px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #454545;
@@ -397,7 +419,7 @@ article{
 
 .updates_item h5{
 	font-family: "OpenSansExtraBold";
-	font-size: 16apx;
+	font-size: 12px;
 	text-decoration: none;
 	color: #454545;
 	line-height: 20px;
@@ -406,12 +428,17 @@ article{
 
 .updates_item p{
 	font-family:"OpenSansLight";
-	font-size: 16px;
+	font-size: 12px;
 
 }
 
 .updates_item{
 	padding-left: 95px;
+	display: block;
+	width: 193px;
+	overflow: hidden;
+	white-space: nowrap;
+
 }
 
 .updates_item:nth-child(3){
@@ -437,29 +464,28 @@ article{
 	height: 49px;
 	width: 49px;
 	background: url('../img/fractal.png');
+	top: 
 }
+
 .updates_data .icon{
 	position: relative;
 	left: -65px;
-	top: -45px;
+	top: -40px;
 }
 
-.updates .for_768px {
-	display: none;
-}
-
-.blogs_articles .for_768px {
-	display: none;
-}
 .updates a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 18px;
+	font-size: 14px;
 	text-decoration: none;
 	color: #454545;
 	text-transform: uppercase;
 	float: right;
-	margin-right: 20px;
-	margin-top: -22px;
+	margin-right: 84px;
+	margin-top: -30px;
+}
+
+.updates .for_960px {
+	display: none;
 }
 
 .trade_marks{
@@ -467,25 +493,28 @@ article{
 	border-bottom: 1px solid #fff;
 }
 .trade_icons img{
-	height: 65px;
-	width: 775px;
-	padding-left: 92px;
+	height: auto;
+	width: 345px;
+	padding-left: 13%;
 	padding-top: 24px;
 	padding-bottom: 27px;
 
 }
 
+.for_960px{
+	display: none;
+}
+
+
+
 .blogs{
 	background-color: #ececec;
 	border-top: 1px solid #d8d8d8;
+	height: 670px;
 }
 
 .blogs__first{
-	float: left;
-	width: 33%;
-	padding-bottom: 117px;
-	padding-top: 18px;
-	margin-right: 25px;
+	margin-top: 70px;
 }
 
 .blogs__first h2{
@@ -514,76 +543,77 @@ article{
 
 }
 
+.blogs__first h3,
 .blogs__second h3,
 .blogs__third h3{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 30px;
-	padding-bottom: 1.2ex;
+	font-size: 18px;
+	padding-bottom: 10px;
 	color: #454545;
 	text-transform: uppercase;
 
 }
 
 .blogs__second{
-	float: left;
-	max-width: 30%;
-	padding-top: 18px;
-
-
+	margin-top: 45px;
 }
 
 .blogs__third{
-	float: right;
-	width: 33%;
-	padding-top: 18px;
+	margin-top: 50px;
 }
 
 .blogs__text{
 	font-family:"OpenSansLight";
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 20px;
 
 }
 
-
-
 footer{
 	background-image: url('../img/footer_bg.png');
-	height: 114px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
 .navi_footer{
-	float: left;
-	margin-top: 45px;
+	margin-top: 48px;
 }
 
 .navi_footer li{
 	margin-left: 0;
 	padding-left: 0;
-	margin-right: 25px;
+	margin-right: 15px;
 	display: inline-block;
 }
 
 .navi_footer li:nth-child(2){
 	margin-left: 0;
 	padding-left: 0;
-	margin-right: 30px;
+	margin-right: 15px;
 }
 
 .navi_footer li:nth-child(3){
 	margin-left: 0;
 	padding-left: 0;
-	margin-right: 35px;
+	margin-right: 15px;
 }
 
 .navi_footer li:nth-child(5){
 	margin-left: 0;
 	padding-left: 0;
-	margin-right: 35px;
+	margin-right: 15px;
+}
+
+.navi_footer li:nth-child(4){
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 15px;
 }
 
 .navi_footer li a{
 	font-family: LeagueGothicRegular, 'Sans Serif', Arial;
-	font-size: 20px;
+	font-size: 16px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
@@ -591,8 +621,8 @@ footer{
 }
 
 .designed{
-	float: right;
-	margin-top: 52px;
+	text-align: center;
+	margin-top: 40px;
 }
 
 .designed p{
